@@ -1,4 +1,4 @@
-package com.example.firebaseplayground.ui
+package com.example.firebaseplayground.ui.ui
 
 import android.os.Bundle
 import android.widget.Toast
