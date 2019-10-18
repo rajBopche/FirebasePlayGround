@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private val fbAuth = FirebaseAuth.getInstance()
-    val dbRef = FirebaseDatabase.getInstance().reference
+    private val dbRef = FirebaseDatabase.getInstance().reference
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
